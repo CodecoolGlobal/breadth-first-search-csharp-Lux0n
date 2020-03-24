@@ -17,8 +17,9 @@ namespace BFS_c_sharp.Model
 
         public UserNode() { }
 
-        public UserNode(string firstName, string lastName)
+        public UserNode(int id, string firstName, string lastName)
         {
+            Id = id;
             FirstName = firstName;
             LastName = lastName;
         }
